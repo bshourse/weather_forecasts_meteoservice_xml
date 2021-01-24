@@ -28,7 +28,7 @@ user_input = STDIN.gets.to_i
 
 # До тех пор пока юзер корректно не введет номер города мы будем отображать ему список с номерами городов
 until user_input >= 1 && user_input <= CITIES.size
-  puts "Введите номер города из списка:\n"
+  puts "Введите номер города из списка:"
   puts "_"*80
   list_of_cities
   user_input = STDIN.gets.to_i
